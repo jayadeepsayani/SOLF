@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffd01433;
+}
+
+    
+.daily-check-in {
+    width: 85%; 
+    background: rgba(255, 208, 20, .4);
+    margin-top: 35px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.check-in-title {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 7px;
+
+}
+
+.check-in-text {
+    margin-left: 30px;
+    margin-top: 0;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+}
+
+.check-in-button {
+    text-decoration: none;
+    display: block;
+    width: 30%;
+    margin-left: 30px;
+    text-align: center;
+    padding: 9px 4px;
+    background: #FFD014;
+    border-radius: 3px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.daily-check-in img {
+    position: absolute;
+    right: -160px;
+    bottom: -90px;
+    width: 380px;
+}
+
+.coins img {
+    width: 60px;
+    height: 70px;
+}
+
+.coins  {
+    display: flex;
+    background: rgba(255, 208, 20, .4);
+    padding-right: 20px;
+    padding-bottom: -4px;
+    padding-left: 10px;
+    border-radius: 20px;
+
+}
+
+.coins-cont {
+    align-self: end;
+    margin-right: 40px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.darkblue {
+    background: #4b14ff;
+    color: #fff;
+}
+
+.blue {
+    background: rgba(39, 20, 255, 0.4);
+    color: #fff;
+}
+
+.blue p {
+    width: 60%;
+}   
+
+.imgmoon {
+    transform: translate(80px, 0);
+}
+
+.crown p {
+    width: 50%;
+}
+
+.crown a {
+    background: #FFD014;
+    color: #000;
+}
+
+.settings {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    border: none;
+    border-radius: 50%;
+    background: #6e6e6c;
+    padding: 15px;  
+}

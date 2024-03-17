@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <h1 class = "label">Daily Check-in</h1>
+    <div class="am">
+    <h2 class="question">Journal entry:</h2>
+    <textarea id="textarea" placeholder="Write about your day here..."></textarea>
+    
+    <button onclick="submitJournal()" id="s">Submit</button>
+        </div>
+    <script>
+        function submitJournal() {
+            window.location.href = 'home.html';
+        }
+    </script>
+    
+</body>
+</html>
